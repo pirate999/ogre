@@ -1,0 +1,2 @@
+find_package(OGRE 1.11 REQUIRED COMPONENTS Bites RTShaderSystem)
+file(COPY ${OGRE_CONFIG_DIR}/resources.cfg DESTINATION ${CMAKE_BINARY_DIR})
